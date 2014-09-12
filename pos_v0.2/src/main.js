@@ -65,7 +65,7 @@ function printInventory(inputs) {
             }
         }
 
-         
+
     for(var i = 0; i < Itemcount.length; i++) {
         goodsPrint[i] = "名称：" + Itemcount[i].name + "，数量：" + Itemcount[i].count + Itemcount[i].unit + "，单价："
             + Itemcount[i].price.toFixed(2) + "(元)，小计：" + Itemcount[i].subTotalm.toFixed(2)
